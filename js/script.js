@@ -20,3 +20,18 @@ const box =document.querySelector('.box')
 box.onclick = function(){
     box.classList.toggle('aqua')
 }
+
+const input = document.querySelector('.input')
+const text = document.querySelector('.text')
+
+input.oninput = function(){
+    text.innerHTML = input.value
+
+    if(input.value.length > 10 ){
+        text.style.color = 'red'
+    } else{
+        text.style.color = 'black'
+    }
+
+}
+
