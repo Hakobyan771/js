@@ -13,6 +13,10 @@ go.onclick = function(){
     } else{
         console.log(usernameValue, passwordValue)
     }
+}
 
+const box =document.querySelector('.box')
 
+box.onclick = function(){
+    box.classList.toggle('aqua')
 }

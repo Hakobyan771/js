@@ -2,3 +2,13 @@
   display: flex;
   justify-content: center;
 }
+
+.box{
+height: 300px;
+width: 300px;
+background-color: blueviolet;
+}
+
+.aqua{
+  background-color: aqua;
+}
