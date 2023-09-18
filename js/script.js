@@ -35,3 +35,7 @@ input.oninput = function(){
 
 }
 
+window.alert('number 1')
+window.alert('number 2')
+window.alert('number 3')
+
