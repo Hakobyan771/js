@@ -35,7 +35,14 @@ input.oninput = function(){
 
 }
 
-window.alert('number 1')
-window.alert('number 2')
-window.alert('number 3')
+console.log('number 1')
+
+
+var firstNameEl;
+var firstNameId;
+
+firstNameId = 'first-name';
+firstNameEl = document.getElementById(firstNameId)
+
+console.log(firstNameEl.value)
 
